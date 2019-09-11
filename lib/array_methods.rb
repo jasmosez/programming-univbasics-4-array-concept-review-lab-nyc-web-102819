@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
     counter = 0
     while array[counter] != value_to_find do
       puts "while pre-increment #{counter}"
-      counter =+ 1
+      counter += 1
       puts "while post-increment #{counter}"
 
     end
